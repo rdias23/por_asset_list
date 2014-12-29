@@ -1,0 +1,104 @@
+body {
+  margin: 0px; }
+  body div#main_block {
+    height: 400px;
+    background-color: white; }
+    body div#main_block h1 {
+      font-size: 44px;
+      font-weight: 300;
+      font-family: Raleway, sans-serif;
+      color: black;
+      display: block;
+      margin: 0 auto;
+      margin-top: 60px;
+      width: 500px;
+      text-align: center; }
+    body div#main_block div#abstract_asset_list {
+      font-size: 14px;
+      font-weight: 300;
+      font-family: Raleway, sans-serif;
+      color: black;
+      display: block;
+      margin: 0 auto;
+      margin-top: 0px;
+      width: 970px;
+      text-align: left; }
+    body div#main_block div#under_block div#under_block_inner {
+      width: 1268px;
+      height: 1200px;
+      margin: 0 auto;
+      border-left: 1px solid;
+      border-right: 1px solid; }
+      body div#main_block div#under_block div#under_block_inner div#ubi_features {
+        display: none;
+        text-align: center; }
+      body div#main_block div#under_block div#under_block_inner div#ubi_projects {
+        text-align: center; }
+      body div#main_block div#under_block div#under_block_inner div#ubi_responsive_design {
+        display: none;
+        text-align: center; }
+
+/* -------------------------------------------------- */
+/* boxtab-blue */
+/* -------------------------------------------------- */
+#boxtab-blue {
+  clear: left;
+  float: left;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  font-family: Verdana, Geneva, sans-serif; }
+
+#boxtab-blue ul {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  left: 50%;
+  text-align: center; }
+
+#boxtab-blue ul li {
+  display: block;
+  float: left;
+  list-style: none;
+  margin: 20px 0 0 0;
+  padding: 0;
+  position: relative;
+  right: 50%;
+  border-bottom: 1px solid; }
+
+#boxtab-blue ul li a {
+  display: block;
+  float: left;
+  margin: 0 1px;
+  padding: 5px 10px;
+  background: #fff;
+  text-decoration: none;
+  color: #000;
+  border-top: 1px solid #369;
+  border-left: 1px solid #369;
+  border-right: 1px solid #369;
+  position: relative;
+  bottom: 1px; }
+
+#boxtab-blue ul li a:hover {
+  background: #36f;
+  color: #fff; }
+
+#boxtab-blue ul li.active {
+  margin-top: 10px;
+  border-bottom: 0px solid; }
+
+#boxtab-blue ul li.active a,
+#boxtab-blue ul li.active a:hover {
+  position: relative;
+  bottom: 0;
+  padding: 10px;
+  background: #fff;
+  color: #000;
+  font-weight: bold; }
+
+/* -------------------------------------------------- */
+
+/*# sourceMappingURL=site.css.map */
