@@ -30,4 +30,19 @@ $(function() {
     $('div#ubi_responsive_design').show();
   });
 
+  $(".fancybox").fancybox();
+
+  $(".fancybox").fancybox({
+     titlePosition : 'over',
+    onComplete : function() {
+    $("#fancybox-title").hide();
+     $("#fancybox-wrap").hover(function() {
+       $("#fancybox-title").show();
+      }, function() {
+       $("#fancybox-title").hide();
+     });
+    }
+   });
+
 });
+

@@ -11,7 +11,7 @@ body {
       display: block;
       margin: 0 auto;
       margin-top: 60px;
-      width: 500px;
+      width: 200px;
       text-align: center; }
     body div#main_block div#abstract_asset_list {
       font-size: 14px;
@@ -21,22 +21,173 @@ body {
       display: block;
       margin: 0 auto;
       margin-top: 0px;
-      width: 970px;
+      width: 58%;
       text-align: left; }
+      body div#main_block div#abstract_asset_list p {
+        font-family: Raleway, sans-serif; }
     body div#main_block div#under_block div#under_block_inner {
-      width: 1268px;
-      height: 1200px;
+      width: 76%;
       margin: 0 auto;
       border-left: 1px solid;
       border-right: 1px solid; }
       body div#main_block div#under_block div#under_block_inner div#ubi_features {
         display: none;
-        text-align: center; }
+        text-align: center;
+        padding-top: 20px; }
+        body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block {
+          margin: 20px;
+          border: 1px solid;
+          height: 400px;
+          box-shadow: 10px 10px 5px #888888;
+          position: relative; }
+          body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_header {
+            position: absolute;
+            top: 0px;
+            width: 100%;
+            width: -webkit-calc(100% - 365px);
+            width: -moz-calc(100% - 365px);
+            width: calc(100% - 365px); }
+            body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_header h1 {
+              margin-top: 0px;
+              width: 100%;
+              text-align: left;
+              margin-left: 10px; }
+          body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_description {
+            position: absolute;
+            top: 51px;
+            width: 100%;
+            width: -webkit-calc(100% - 365px);
+            width: -moz-calc(100% - 365px);
+            width: calc(100% - 365px); }
+            body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_description p {
+              text-align: left;
+              margin-top: 4px;
+              margin-left: 10px; }
+              body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_description p .bold_lead {
+                font-weight: bold; }
+          body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_links {
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            width: -webkit-calc(100% - 365px);
+            width: -moz-calc(100% - 365px);
+            width: calc(100% - 365px); }
+            body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_links p {
+              text-align: left;
+              margin-top: 4px;
+              margin-left: 10px; }
+              body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_links p .bold_lead {
+                font-weight: bold; }
+          body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block img.ubi_features_block_img {
+            height: 100%;
+            display: block;
+            position: absolute;
+            right: 0; }
       body div#main_block div#under_block div#under_block_inner div#ubi_projects {
-        text-align: center; }
+        text-align: center;
+        padding-top: 20px; }
+        body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block {
+          margin: 20px;
+          border: 1px solid;
+          height: 400px;
+          box-shadow: 10px 10px 5px #888888;
+          position: relative; }
+          body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block div.ubi_project_block_header {
+            position: absolute;
+            top: 0px;
+            width: 100%;
+            width: -webkit-calc(100% - 365px);
+            width: -moz-calc(100% - 365px);
+            width: calc(100% - 365px); }
+            body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block div.ubi_project_block_header h1 {
+              margin-top: 0px;
+              width: 100%;
+              text-align: left;
+              margin-left: 10px; }
+          body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block div.ubi_project_block_description {
+            position: absolute;
+            top: 51px;
+            width: 100%;
+            width: -webkit-calc(100% - 365px);
+            width: -moz-calc(100% - 365px);
+            width: calc(100% - 365px); }
+            body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block div.ubi_project_block_description p {
+              text-align: left;
+              margin-top: 4px;
+              margin-left: 10px; }
+              body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block div.ubi_project_block_description p .bold_lead {
+                font-weight: bold; }
+          body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block div.ubi_project_block_links {
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            width: -webkit-calc(100% - 365px);
+            width: -moz-calc(100% - 365px);
+            width: calc(100% - 365px); }
+            body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block div.ubi_project_block_links p {
+              text-align: left;
+              margin-top: 4px;
+              margin-left: 10px; }
+              body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block div.ubi_project_block_links p .bold_lead {
+                font-weight: bold; }
+          body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block img.ubi_project_block_img {
+            height: 100%;
+            display: block;
+            position: absolute;
+            right: 0; }
       body div#main_block div#under_block div#under_block_inner div#ubi_responsive_design {
         display: none;
-        text-align: center; }
+        text-align: center;
+        padding-top: 20px; }
+        body div#main_block div#under_block div#under_block_inner div#ubi_responsive_design div.ubi_designs_block {
+          margin: 20px;
+          border: 1px solid;
+          height: 400px;
+          box-shadow: 10px 10px 5px #888888;
+          position: relative; }
+          body div#main_block div#under_block div#under_block_inner div#ubi_responsive_design div.ubi_designs_block div.ubi_designs_block_header {
+            position: absolute;
+            top: 0px;
+            width: 100%;
+            width: -webkit-calc(100% - 365px);
+            width: -moz-calc(100% - 365px);
+            width: calc(100% - 365px); }
+            body div#main_block div#under_block div#under_block_inner div#ubi_responsive_design div.ubi_designs_block div.ubi_designs_block_header h1 {
+              margin-top: 0px;
+              width: 100%;
+              text-align: left;
+              margin-left: 10px; }
+          body div#main_block div#under_block div#under_block_inner div#ubi_responsive_design div.ubi_designs_block div.ubi_designs_block_description {
+            position: absolute;
+            top: 51px;
+            width: 100%;
+            width: -webkit-calc(100% - 365px);
+            width: -moz-calc(100% - 365px);
+            width: calc(100% - 365px); }
+            body div#main_block div#under_block div#under_block_inner div#ubi_responsive_design div.ubi_designs_block div.ubi_designs_block_description p {
+              text-align: left;
+              margin-top: 4px;
+              margin-left: 10px; }
+              body div#main_block div#under_block div#under_block_inner div#ubi_responsive_design div.ubi_designs_block div.ubi_designs_block_description p .bold_lead {
+                font-weight: bold; }
+          body div#main_block div#under_block div#under_block_inner div#ubi_responsive_design div.ubi_designs_block div.ubi_designs_block_links {
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            width: -webkit-calc(100% - 365px);
+            width: -moz-calc(100% - 365px);
+            width: calc(100% - 365px); }
+            body div#main_block div#under_block div#under_block_inner div#ubi_responsive_design div.ubi_designs_block div.ubi_designs_block_links p {
+              text-align: left;
+              margin-top: 4px;
+              margin-left: 10px; }
+              body div#main_block div#under_block div#under_block_inner div#ubi_responsive_design div.ubi_designs_block div.ubi_designs_block_links p .bold_lead {
+                font-weight: bold; }
+          body div#main_block div#under_block div#under_block_inner div#ubi_responsive_design div.ubi_designs_block img.ubi_designs_block_img {
+            height: 100%;
+            display: block;
+            position: absolute;
+            right: 0; }
 
 /* -------------------------------------------------- */
 /* boxtab-blue */
@@ -50,28 +201,29 @@ body {
   font-family: Verdana, Geneva, sans-serif; }
 
 #boxtab-blue ul {
-  float: left;
   margin: 0;
   padding: 0;
   list-style: none;
   position: relative;
-  left: 50%;
-  text-align: center; }
+  text-align: center;
+  height: 51px;
+  overflow: auto;
+  width: 76%;
+  margin: 0 auto; }
 
 #boxtab-blue ul li {
   display: block;
-  float: left;
   list-style: none;
   margin: 20px 0 0 0;
   padding: 0;
-  position: relative;
-  right: 50%;
-  border-bottom: 1px solid; }
+  border-bottom: 1px solid;
+  display: block;
+  width: 33.33%;
+  float: left; }
 
 #boxtab-blue ul li a {
   display: block;
-  float: left;
-  margin: 0 1px;
+  margin: 0;
   padding: 5px 10px;
   background: #fff;
   text-decoration: none;
