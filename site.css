@@ -251,6 +251,170 @@ body {
   color: #000;
   font-weight: bold; }
 
+@media only screen and (max-width: 1412px) {
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_header.license_request_header {
+    width: 100% !important;
+    width: -webkit-calc(100% - 311px) !important;
+    width: -moz-calc(100% - 311px) !important;
+    width: calc(100% - 311px) !important; }
+
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_description.license_request_description {
+    width: 100% !important;
+    width: -webkit-calc(100% - 311px) !important;
+    width: -moz-calc(100% - 311px) !important;
+    width: calc(100% - 311px) !important; }
+
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block img.ubi_features_block_img.license_request_img {
+    height: 46.5%; } }
+@media only screen and (max-width: 1346px) {
+  body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block img.ubi_project_block_img.ace_profile_links_img {
+    height: 62%; }
+
+  body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block div.ubi_project_block_header.profile_links_header {
+    width: 100% !important;
+    width: -webkit-calc(100% - 364px) !important;
+    width: -moz-calc(100% - 364px) !important;
+    width: calc(100% - 364px) !important; }
+
+  body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block div.ubi_project_block_description.profile_links_description {
+    width: 100% !important;
+    width: -webkit-calc(100% - 364px) !important;
+    width: -moz-calc(100% - 364px) !important;
+    width: calc(100% - 364px) !important; }
+
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block img.ubi_features_block_img.flip_placard_img {
+    height: 48%; }
+
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_header.flip_placard_header {
+    width: 100% !important;
+    width: -webkit-calc(100% - 311px) !important;
+    width: -moz-calc(100% - 311px) !important;
+    width: calc(100% - 311px) !important; }
+
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_description.flip_placard_description {
+    width: 100% !important;
+    width: -webkit-calc(100% - 311px) !important;
+    width: -moz-calc(100% - 311px) !important;
+    width: calc(100% - 311px) !important; } }
+@media only screen and (max-width: 1180px) {
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block img.ubi_features_block_img.analytics_img {
+    height: 82%; }
+
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_header.analytics_header {
+    width: 100% !important;
+    width: -webkit-calc(100% - 328px) !important;
+    width: -moz-calc(100% - 328px) !important;
+    width: calc(100% - 328px) !important; }
+
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_description.analytics_description {
+    width: 100% !important;
+    width: -webkit-calc(100% - 328px) !important;
+    width: -moz-calc(100% - 328px) !important;
+    width: calc(100% - 328px) !important; }
+
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block img.ubi_features_block_img.meta_tags_img {
+    height: 66%; }
+
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_header.meta_tags_header {
+    width: 100% !important;
+    width: -webkit-calc(100% - 327px) !important;
+    width: -moz-calc(100% - 327px) !important;
+    width: calc(100% - 327px) !important; }
+
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_description.meta_tags_description {
+    width: 100% !important;
+    width: -webkit-calc(100% - 327px) !important;
+    width: -moz-calc(100% - 327px) !important;
+    width: calc(100% - 327px) !important; } }
 /* -------------------------------------------------- */
+@media only screen and (max-width: 991px) {
+  body div#main_block div#under_block div#under_block_inner {
+    width: 98%; }
+    body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_links p {
+      font-size: 12px; }
+    body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block div.ubi_project_block_links p {
+      font-size: 12px; }
+    body div#main_block div#under_block div#under_block_inner div#ubi_responsive_design div.ubi_designs_block div.ubi_designs_block_links p {
+      font-size: 12px; }
+
+  /* -------------------------------------------------- */
+  /* boxtab-blue */
+  /* -------------------------------------------------- */
+  #boxtab-blue ul {
+    width: 98%; } }
+/* -------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+  body div#main_block div#abstract_asset_list {
+    width: 98%; }
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_header {
+    overflow: hidden;
+    white-space: nowrap; }
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_header.flip_placard_header {
+    width: 100% !important; }
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_header.license_request_header {
+    width: 100% !important; }
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_header.analytics_header {
+    width: 100% !important; }
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_header.meta_tags_header {
+    width: 100% !important; }
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_description.flip_placard_description {
+    width: 100% !important; }
+    body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_description.flip_placard_description p {
+      margin-right: 10px; }
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_description.license_request_description {
+    width: 100% !important; }
+    body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_description.license_request_description p {
+      margin-right: 10px; }
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_description.analytics_description {
+    width: 100% !important; }
+    body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_description.analytics_description p {
+      margin-right: 10px; }
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_description.meta_tags_description {
+    width: 100% !important; }
+    body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_description.meta_tags_description p {
+      margin-right: 10px; }
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block div.ubi_features_block_links {
+    width: 100% !important;
+    overflow: hidden;
+    white-space: nowrap; }
+  body div#main_block div#under_block div#under_block_inner div#ubi_features div.ubi_features_block img.ubi_features_block_img {
+    display: none; }
+  body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block div.ubi_project_block_header {
+    width: 100% !important;
+    overflow: hidden;
+    white-space: nowrap; }
+  body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block div.ubi_project_block_header.profile_links_header {
+    width: 100% !important; }
+  body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block div.ubi_project_block_description {
+    width: 100% !important; }
+    body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block div.ubi_project_block_description p {
+      margin-right: 10px; }
+  body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block div.ubi_project_block_description.profile_links_description {
+    width: 100% !important; }
+    body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block div.ubi_project_block_description.profile_links_description p {
+      margin-right: 10px; }
+  body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block div.ubi_project_block_links {
+    width: 100% !important; }
+  body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block img.ubi_project_block_img {
+    display: none; }
+  body div#main_block div#under_block div#under_block_inner div#ubi_responsive_design div.ubi_designs_block div.ubi_designs_block_header {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100% !important; }
+  body div#main_block div#under_block div#under_block_inner div#ubi_responsive_design div.ubi_designs_block div.ubi_designs_block_description {
+    width: 100% !important; }
+    body div#main_block div#under_block div#under_block_inner div#ubi_responsive_design div.ubi_designs_block div.ubi_designs_block_description p {
+      margin-right: 10px; }
+  body div#main_block div#under_block div#under_block_inner div#ubi_responsive_design div.ubi_designs_block div.ubi_designs_block_links {
+    width: 100% !important; }
+  body div#main_block div#under_block div#under_block_inner div#ubi_responsive_design div.ubi_designs_block img.ubi_designs_block_img {
+    display: none; }
+
+  /* -------------------------------------------------- */
+  /* boxtab-blue */
+  /* -------------------------------------------------- */ }
+@media only screen and (max-width: 585px) {
+  #boxtab-blue ul li span#resp_hide {
+    display: none; } }
 
 /*# sourceMappingURL=site.css.map */
