@@ -117,6 +117,10 @@ body {
               margin-left: 10px; }
               body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block div.ubi_project_block_description p .bold_lead {
                 font-weight: bold; }
+              body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block div.ubi_project_block_description p a {
+                overflow: hidden;
+                white-space: nowrap;
+                display: block; }
           body div#main_block div#under_block div#under_block_inner div#ubi_projects div.ubi_project_block div.ubi_project_block_links {
             position: absolute;
             bottom: 0px;
@@ -170,6 +174,10 @@ body {
               margin-left: 10px; }
               body div#main_block div#under_block div#under_block_inner div#ubi_responsive_design div.ubi_designs_block div.ubi_designs_block_description p .bold_lead {
                 font-weight: bold; }
+              body div#main_block div#under_block div#under_block_inner div#ubi_responsive_design div.ubi_designs_block div.ubi_designs_block_description p a {
+                overflow: hidden;
+                white-space: nowrap;
+                display: block; }
           body div#main_block div#under_block div#under_block_inner div#ubi_responsive_design div.ubi_designs_block div.ubi_designs_block_links {
             position: absolute;
             bottom: 0px;
