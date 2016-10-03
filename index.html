@@ -21,12 +21,20 @@
 <div id="main_block">
   <h1> Asset List </h1>
     <div id="abstract_asset_list">
+	<span style="font-weight: bold;">Abstract</span>: Herein described are various projects, and feature implementations, implemented by this Pictoura staff member, Ray Dias, between May 2014 and the present. The most recent projects described herein are "GYDR Finder" and "Tour Availabilities". The <u>biggest project by far is Travelogues </u> or, more precisely, the Interactive Itinerary Authoring tool used to create Travelogues. Code Links are samples only, and do not represent all relevant code.
+      </p>
       <p>
-	<span style="font-weight: bold;">Abstract</span>: Herein described are various projects, and feature implementations, assigned to and implemented by this Pictoura staff member, Ray Dias, between May 2014 and the present. Project code is in a private repository; consequently, all relevant code snippets have been posted via <a href="https://help.github.com/articles/creating-gists/">gist links</a>.
+	Project code is in a private repository; consequently, all relevant code snippets have been posted via <a href="https://help.github.com/articles/creating-gists/">gist links</a>.
       </p>
 
       <p>
-	<a href="http://pictoura.com" style="color: rgb(85, 26, 139);">Pictoura.com</a> is a photo-sharing website (Rails 3.2) aimed at Travel and Photography Enthusiasts and Professionals.
+	       <a href="http://pictoura-staging.herokuapp.com" style="color: rgb(85, 26, 139);">Pictoura.com</a> was originally a photo-sharing website (Rails 3.2) aimed at Travel and Photography Enthusiasts and Professionals. Currently it is being rennovated to function as a service that enables laymen and professionals to market themselves as Tour Guides. These Tour Guides are called GYDRs.
+      </p>
+      <p>
+        A recent development build of the GYDR Project can be accessed at the Staging URL: <a href="http://pictoura-staging.herokuapp.com" style="color: rgb(85, 26, 139);">http://pictoura-staging.herokuapp.com</a>
+      </p>
+      <p>
+        GYDR Software Design Document can be downloaded from here: <a href="./documents/gydr_software_design_doc.zip">gydr_software_design_doc.zip</a>
       </p>
     </div>
 
@@ -169,8 +177,101 @@
             <div id="ubi_projects">
 
               <!-- Here are some Projects. -->
-
               <div class="ubi_project_block" style="margin-top: 0px;">
+
+                <a class="fancybox" rel="travelogue_pics" href="images/interactive_itinerary_1.png" title="The Interactive Itinerary Authoring Tool - aka 'Travelogues'" ><img style="max-width: 365.25px;" src="images/interactive_itinerary_1.png" alt="travelogue_1" class="ubi_project_block_img" > </a>
+                <a class="fancybox" rel="travelogue_pics" style="display: none;" href="images/interactive_itinerary_2.png" title="The Interactive Itinerary Authoring Tool - aka 'Travelogues'" ><img src="images/interactive_itinerary_2.png" alt="travelogue_1" class="ubi_project_block_img" > </a>
+                <a class="fancybox" rel="travelogue_pics" style="display:none;" href="images/interactive_itinerary_3.png" title="The Interactive Itinerary Authoring Tool - aka 'Travelogues'" ><img src="images/interactive_itinerary_3.png" alt="travelogue_1" class="ubi_project_block_img" > </a>
+
+                <div class="ubi_project_block_header">
+                  <h1> Travelogues </h1>
+                </div>
+
+                <div class="ubi_project_block_description" style="">
+                  <p>
+                    <span class="bold_lead">Project Description</span>: A sophisticated Single Page Application built with Backbone and Marionette. Used to create Interactive Itineraries (i.e. Travelogues) for Travellers, Vacation Package Vendors, or Tour Guides utilizing the GYDR service. Each Interactive Itinerary is a set of geo-tagged Travelogue Posts (i.e. Tour Stops) accompanied by descriptive text and a set of geo-tagged images (added via a "drag" and "drop" interface). Images may be drawn from the World Gallery, User created Galleries, of uploaded on the spot.
+
+                  </p>
+                </div>
+
+                <div class="ubi_project_block_links" style="overflow: hidden;">
+                  <p>
+                    <span class="bold_lead">Code Links</span>:<br/>
+
+                    <a href="https://gist.github.com/rdias23/b7db8d3842ede1c32d1effb1d165c8b1" target="_blank" style="">/modules/image_selection_module/views/edit_images_popup_view.js</a><br/>
+                    <a href="https://gist.github.com/rdias23/12e7f7f9ecfe2581812bbfd4c9a388a7" target="_blank" style="">/modules/image_selection_module/views/layout.js</a><br/>
+                    <a href="https://gist.github.com/rdias23/2d1c01d49105e91873baa3bbf5cec8f3" target="_blank" style="">/modules/travelogue_authoring_ui_manager_module/views/done_selecting_view.js</a><br/>
+                    <a href="https://gist.github.com/rdias23/2538cee08c2fe8e32f042182c97f22d0" target="_blank" style="">/modules/travelogue_authoring_ui_manager_module/module.js</a><br/>
+                    <a href="https://gist.github.com/rdias23/beb90dfa791b2ed6e1ebd9bc5e6fece6" target="_blank" style="">/modules/travelogue_authoring_module/views/tour_travelogue_post_view.js</a><br/>
+                    <a href="https://gist.github.com/rdias23/e98a825ce074962747483e3ff5cbd325" target="_blank" style="">/modules/travelogue_authoring_module/views/travelogue_posts_view.js</a><br/>
+                    <a href="https://gist.github.com/rdias23/e8dfa06f4eb1da681ebcb2c7c32bc41d" target="_blank">/modules/travelogue_authoring_module/views/layout.js</a><br/>
+                    <a href="https://gist.github.com/rdias23/5a13c85107afe143bf09fe5dfa8ec1a5" target="_blank">/modules/travelogue_workbox_module/views/workbox_images_view.js</a><br/>
+                  </p>
+
+                </div>
+              </div>
+
+              <div class="ubi_project_block" style="">
+
+                <a class="fancybox" href="images/gydr_finder.png" title="GYDR Finder page at <a href='http://pictoura-staging.herokuapp.com/gydr_finder/index'> http://pictoura-staging.herokuapp.com/gydr_finder/index </a>" ><img src="images/gydr_finder.png" alt="gydr_finder_pic" class="ubi_project_block_img" > </a>
+
+                <div class="ubi_project_block_header">
+                  <h1> GYDR Finder </h1>
+                </div>
+
+                <div class="ubi_project_block_description">
+                  <p>
+                    <span class="bold_lead">Project Description</span>: GYDRs are layman (and Professional) Tour Guides. GYDR Finder is the UI element responsible for submitting GYDR Search queries. GYDR Search functionality is provided by the Lucene based search engine Elasticsearch via the Searchkick gem.
+                    <br/>
+                    Link: <a href="http://pictoura-staging.herokuapp.com/gydr_finder/index">http://pictoura-staging.herokuapp.com/gydr_finder/index<a/>
+                  </p>
+                </div>
+
+                <div class="ubi_project_block_links" style="overflow: hidden;">
+                  <p>
+                    <span class="bold_lead">Code Links</span>:<br/>
+
+                    <a href="https://gist.github.com/rdias23/278c1131611adf47b2ea96f7fa8642dd" target="_blank">/app/controllers/gydr_finder_controller.rb</a><br/>
+                    <a href="https://gist.github.com/rdias23/592bbe31e13605773da728d00235e6b9" target="_blank">/app/models/gydr_profile.rb</a><br/>
+                    <a href="https://gist.github.com/rdias23/beb90dfa791b2ed6e1ebd9bc5e6fece6" target="_blank" style="">/modules/travelogue_authoring_module/views/tour_travelogue_post_view.js</a><br/>
+                    <a href="https://gist.github.com/rdias23/57faa47fa4c1233831b628c485e5064c" target="_blank">/app/views/gydr_finder/index.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/1fcb70b4dd0b8b08605b9c0ec5d864ed" target="_blank">/app/assets/javascripts/global/gydr_finder_filter.js</a><br/>
+
+                  </p>
+
+                </div>
+              </div>
+
+              <div class="ubi_project_block" style="">
+
+                <a class="fancybox" href="images/GYDR_tour_page.png" title="Tour page at <a href='http://pictoura-staging.herokuapp.com/users/119/tours/9195'> http://pictoura-staging.herokuapp.com/users/119/tours/9195 </a>" ><img style="max-width: 365.25px;" src="images/GYDR_tour_page.png" alt="tour_page_pic" class="ubi_project_block_img" > </a>
+
+                <div class="ubi_project_block_header">
+                  <h1> Tour Availabilities </h1>
+                </div>
+
+                <div class="ubi_project_block_description">
+                  <p>
+                    <span class="bold_lead">Project Description</span>: Tour Availabilities may be non-recurring, weekly, monthly, or yearly. The Tour page "Booking Box" allows Travellers to filter Availabilities by calendar date. The Tour Request submission process is initiated by clicking on the "Book Now" button, after selecting an Available Time.
+                    <br/>
+                    Link: <a href="http://pictoura-staging.herokuapp.com/users/119/tours/9195">http://pictoura-staging.herokuapp.com/users/119/tours/9195<a/>
+                  </p>
+                </div>
+
+                <div class="ubi_project_block_links">
+                  <p>
+                    <span class="bold_lead">Code Links</span>:<br/>
+
+                    <a href="https://gist.github.com/rdias23/a0e53a2feae732f6157c0a9b80ed3d40" target="_blank">/app/views/tours/show.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/831bd158bccb22952bf69955595d1336" target="_blank">/app/controllers/tours_controller.rb</a><br/>
+                    <a href="https://gist.github.com/rdias23/45ee0b535d5fadf778cec186b6c33396" target="_blank">https://gist.github.com/rdias23/45ee0b535d5fadf778cec186b6c33396</a><br/>
+
+                  </p>
+
+                </div>
+              </div>
+
+              <div class="ubi_project_block" style="">
 
                 <a class="fancybox" href="images/all_badges.png" title="Badges page at <a href='http://www.pictoura.com/users/127/all_badges'> http://www.pictoura.com/users/127/all_badges </a>" ><img src="images/all_badges.png" alt="trophy_case_pic" class="ubi_project_block_img" > </a>
 
@@ -181,7 +282,7 @@
                 <div class="ubi_project_block_description">
                   <p>
                     <span class="bold_lead">Project Description</span>: In order to incentivize user participation, users are awarded "badges,"--trophies for accomplishing goals. For example, a user may get a "Day Tripper" badge for uploading photos from two different countries, or a user may get an "Active Beta Tester" badge for submitting 10 feedbacks. Users are notified of the achievement with an email.
-                    <br/><br/>
+                    <br/>
                     Link: <a href="http://www.pictoura.com/users/127/all_badges">http://www.pictoura.com/users/127/all_badges<a/>
                   </p>
                 </div>
@@ -248,7 +349,7 @@
 
                 <div class="ubi_project_block_description" style="width: 100%; width: -webkit-calc(100% - 236px); width: -moz-calc(100% - 236px); width: calc(100% - 236px);">
                   <p>
-                    <span class="bold_lead">Project Description</span>:Pictoura.com in it's present incarnation is primarily a (geo-tagged) photo-sharing site. Consequently, the new image show page design needed careful execution. It's a complex page with many different states dependant on the status of the viewer and the image owner, and leverages Wikipedia and Yelp APIs.
+                    <span class="bold_lead">Project Description</span>:Pictoura.com was (before the GYDR pivot) primarily a (geo-tagged) photo-sharing site. Consequently, the new image show page design needed careful execution. It's a complex page with many different states dependant on the status of the viewer and the image owner, and leverages Wikipedia and Yelp APIs.
 
                     <br/><br/>
                     Link: <a href="http://www.pictoura.com/pictoura_images/47779">http://www.pictoura.com/pictoura_images/47779</a>
